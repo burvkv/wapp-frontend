@@ -2,7 +2,23 @@ body {
     font-family: Montserrat, sans-serif;
     position: relative;
   }
-  
+ nav{
+   z-index: 98;
+   opacity: 0.9;
+ }
+  .navbar-blur{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    opacity: 1;
+    z-index: 95;
+ 
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);  
+    height: 52px;
+   
+  }
   
   .navbar-nav .nav-item:hover {
     background-color: rgba(180, 190, 203, 0.4);
