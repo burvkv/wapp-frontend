@@ -1,0 +1,16 @@
+*{
+    font-family: Montserrat, sans-serif;
+    color: #f6f6f6;
+    font-size: 14px;
+  
+}
+body{
+   
+   background-color: #232629;
+    width: 17%;
+    position: fixed;
+    top: 48px;
+    left: 0px;
+    min-height: 100%;
+ 
+}
