@@ -8,3 +8,12 @@ body {
     background-color: rgba(180, 190, 203, 0.4);
   }
   
+  .navbar-center{
+    
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+    width: 20%;
+    overflow:hidden;
+    top:10px;
+  }
