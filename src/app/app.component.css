@@ -1,0 +1,8 @@
+@media  screen and (max-width:903px){
+    .col-sm-2{
+        width: 9%;
+    }
+    .col-sm-10{
+        width:91%
+    }
+}

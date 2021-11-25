@@ -1,0 +1,13 @@
+<p>debit works!</p>
+<table *ngIf="dataLoaded==true" class="table">
+    <thead>
+        <tr>
+            <td>Employee</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let debit of debits">
+            <td>{{debit.ownerName}}</td>
+        </tr>
+    </tbody>
+</table>

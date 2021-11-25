@@ -99,3 +99,134 @@ a:hover{
 .menu_items{
     margin-top: 20%;
 }
+.bdg{
+    font-size: 9px; color: #232629;margin-left: 5px;
+}
+@media  screen and (max-width:1243px){
+
+    .menu_footer{
+        position: relative;
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    body{
+        bottom: 0px;
+    }
+    .menu_li .dsbldiv .bdg {
+        font-size: 7px;      
+    }
+}
+@media  screen and (max-width:1201px){
+    .menu_li .dsbldiv .bdg {
+        display: none;   
+    }
+    .menu_li .dsbldiv .icon i{
+        color: #576069;
+    }
+    .menu_li .dsbldiv .item{
+        color: #576069;
+    }
+    body{
+        bottom: 0px;
+    }
+}
+
+@media  screen and (max-width:1171px){
+    *{
+        font-size: 12px;
+        padding: 0px;
+    }
+    body{
+        bottom: 0px;
+    }
+}
+@media  screen and (max-width:903px){
+    .menu_li .dsbldiv .item{
+        display: none;
+    }
+    .menu_li .item{
+        display: none;
+    }
+    .menu_li .icon i{
+        font-size: 17px;
+        padding: 10px;
+        width: 100%;
+    }
+   body{
+       width: 9%;
+       bottom: 0px;
+       
+   }
+   body::-webkit-scrollbar{
+    width: 7px;
+}
+body::-webkit-scrollbar-track {
+    background: #353b41;        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color:  #3d4349;  /* color of the scroll thumb */
+    border-radius: 0px;       /* roundness of the scroll thumb */
+    
+  }
+    .profile img{
+        visibility: hidden;
+    }
+    .profile{
+        display: none;
+    }
+    .menu_footer{
+        display: none;
+    }
+    .gen{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+@media  screen and (max-width:766px){
+   .gen{
+       display: none;
+   }
+   body{
+       text-align: center;
+       padding: 0px;
+       padding-right: 25px;
+       padding-left: 0px;
+       margin-left: 0px;
+   }
+   hr{
+       display:none;
+   }
+   ul{
+      
+       text-align: center;
+   }
+   .menu_li .icon i{
+       font-size: 25px;
+       padding:0px;
+       padding-top: 3px;
+       margin: 0px;
+       
+   }
+   a{
+       padding: 25px;
+     
+       text-align: center;
+   }
+   .sidebar{
+       text-align: center;
+       justify-content: center;
+       margin: auto;
+       display: block;
+   }
+   a:hover{
+       background-color: #232629;
+   }
+}
+
+@media  screen and (max-width:600px){
+    .menu_li .icon i{
+        font-size: 15px;
+    }
+}
+

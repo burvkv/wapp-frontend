@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400,700,800");
+
+.po{
+    background-color: #f6f6f6;
+
+
+}
+.svg{
+   
+    height: 100vh;
+    position: relative;
+    padding: 15px;
+    margin: 0px;
+   
+}
+img{
+    position: absolute;
+    margin: auto;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    
+   
+    
+}
+
+.content{
+    height: 100vh;
+}
+.dvi{
+    z-index: 99;
+    background-color: transparent;
+    position: absolute; text-align: center;
+}
+.dvi h1{
+   
+    font-family: "Dosis", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #EA5C69;
+  background-color: transparent;
+}
+
+.dvi h4{
+    
+ 
+  font-size: 16px;
+  font-weight:600;
+  color: #EA5C69;
+  background-color: transparent;
+}
+.log{
+    z-index: 1;
+    background-color: transparent;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.content{
+    position: relative;
+}
+
+input{
+    background-color: #f6f6f6;
+}
+
+.chckbox:checked{
+background-color: #EA5C69;
+
+}
+
+.form-check-input:focus {
+    border-color: #EA5C69;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(233, 56, 109, 0.25);
+  }
+
+  .form-check-input:checked {
+    background-color: #EA5C69;
+    border-color: #EA5C69;
+  }
+
+  
