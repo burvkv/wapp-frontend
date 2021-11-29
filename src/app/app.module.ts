@@ -18,6 +18,9 @@ import {TableModule} from 'primeng/table';
 import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './Components/login/login.component';
+import { HardwareComponent } from './Components/hardware/hardware.component';
+import { TodoComponent } from './Components/todo/todo.component';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +31,9 @@ import { LoginComponent } from './Components/login/login.component';
     BreadcrumbDateComponent,
     DashboardComponent,
     DebitComponent,
-    LoginComponent
+    LoginComponent,
+    HardwareComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,

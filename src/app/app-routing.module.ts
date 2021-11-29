@@ -4,12 +4,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { DebitComponent } from './Components/debit/debit.component';
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { LoginComponent } from './Components/login/login.component';
+import { AppComponent } from './app.component';
+import { HardwareComponent } from './Components/hardware/hardware.component';
 
 
 const routes:Routes=[
-  {path:"",pathMatch:"full",component:LoginComponent},
+  {path:"",pathMatch:"full",component:DashboardComponent},
   {path:"dashboard",component:DashboardComponent},
-  {path:"debits",component:DebitComponent}
+  {path:"debits",component:DebitComponent},
+  {path:"login", component:LoginComponent},
+  {path:"hardwares", component:HardwareComponent}
 
 ];
 

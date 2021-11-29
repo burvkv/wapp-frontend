@@ -1,0 +1,37 @@
+<div class="d-flex justify-content-center mx-auto mb-3" >
+   
+</div>
+<div class="controls shadow-sm mb-5 container-fluid mb-5"  style="width: 94%;">
+  <span class="search" style="float: right;">
+    <input class="form-control" type="text" placeholder="Filter" aria-label="default input example" style="width: 300px; text-align: center; background-color:#f6f6f6">
+  </span>
+    <span class="p-buttonset mb-3 " style="float: left;"> 
+        <button pButton pRipple type="button" icon="pi pi-plus " class="btncontrols"></button>
+        <button pButton pRipple type="button"  icon="pi pi-refresh" class="btncontrols"></button>
+
+    </span>
+</div>
+
+<div class="container-fluid w-100 listTodo mt-5" style="padding-top: 10px;">
+    <table class="table mt-5" style="text-align: center; align-items: center; align-content: center;">
+       
+        <tbody>
+          <tr *ngFor="let todo of todos" >
+            <th scope="row">{{todo.Date}}</th>
+            <td>{{todo.Process}}</td>
+            <td>{{todo.Explanation}}</td>
+            <td style="position: relative;">
+                <div *ngIf="!todo.status"><div class="waiting"></div></div>
+                <div *ngIf="todo.status"><div class="success"></div></div>
+            </td>
+            <td><b>{{todo.Person}}</b></td>
+            <td><span class="p-buttonset">
+                <button pButton pRipple type="button" icon="pi pi-check " style="background-color: rgb(51, 194, 51); border-color: rgb(51, 194, 51);"></button>
+                <button pButton pRipple type="button"  icon="pi pi-pencil" style="background-color: #e98246; border-color: #e98246;"></button>
+                <button pButton pRipple type="button"  icon="pi pi-trash" style="background-color: #EA5C69; border-color: rgb(238, 84, 105);"></button>
+            </span></td>
+          </tr>
+         
+        </tbody>
+      </table>
+</div>
