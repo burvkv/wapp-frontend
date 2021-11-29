@@ -56,6 +56,7 @@ body{
 
 .menu_items{
     padding: 0px;
+    margin: 0px;
     width: 100%;
 }
 .menu_items .menu_li{

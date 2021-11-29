@@ -6,6 +6,7 @@ import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { LoginComponent } from './Components/login/login.component';
 import { AppComponent } from './app.component';
 import { HardwareComponent } from './Components/hardware/hardware.component';
+import { TodoComponent } from './Components/todo/todo.component';
 
 
 const routes:Routes=[
@@ -13,7 +14,8 @@ const routes:Routes=[
   {path:"dashboard",component:DashboardComponent},
   {path:"debits",component:DebitComponent},
   {path:"login", component:LoginComponent},
-  {path:"hardwares", component:HardwareComponent}
+  {path:"hardwares", component:HardwareComponent},
+  {path:"todos", component:TodoComponent}
 
 ];
 
