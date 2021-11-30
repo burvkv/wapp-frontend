@@ -2,9 +2,9 @@
  
     <nav aria-label="breadcrumb" style="float: right;">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">To Do</a></li>
-          <!-- <li class="breadcrumb-item"><a href="#">New</a></li> -->
-          <li class="breadcrumb-item active" aria-current="page">List</li>
+          <li *ngFor="let cumb of cumbs" [class]="passiveClass"><a href="#">{{cumb}}</a></li>
+          
+       
         </ol>
       </nav>
 </div>
