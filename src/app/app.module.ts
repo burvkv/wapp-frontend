@@ -22,6 +22,7 @@ import { HardwareComponent } from './Components/hardware/hardware.component';
 import { TodoComponent } from './Components/todo/todo.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +34,8 @@ import { TodoComponent } from './Components/todo/todo.component';
     DebitComponent,
     LoginComponent,
     HardwareComponent,
-    TodoComponent
+    TodoComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400,700,800");
 *{
     font-family: Montserrat, sans-serif;
     color: #f6f6f6;
-    font-size: 24px;
+  
 }
 
 .pie{
@@ -13,4 +14,105 @@
 .row{
     height: 50%;
  
+}
+
+.cl1{
+    min-width: 300px;
+    overflow: hidden;
+    background-color: #f88568;
+    height: 150px;
+    position: relative;
+}
+
+.cl2{
+    min-width: 300px;
+    overflow: hidden;
+    background-color:#365c6b;
+    height: 150px;
+    position: relative;
+}
+
+.cl3{
+    min-width: 300px;
+    background-color: #fcd166;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cl4{
+    min-width: 300px;
+    overflow: hidden;
+    background-color: #33c5b4;
+    height: 150px;
+    position: relative;
+}
+
+.col_text{
+    font-family: "Dosis", sans-serif;
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+}
+
+.col_logo i{
+    
+    position: absolute;
+    right: 5px;
+    font-size: 140px;
+    
+}
+
+.col_count{
+    position: absolute;
+    top: 25px;
+    left: 37px;
+    font-family: "Dosis", sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    z-index: 99;
+}
+
+.emp i{
+    color: #527c8d;
+}
+
+.hw i{
+    color: #dd7257;
+}
+
+.db i{
+    color: #e2bb57;
+}
+
+.lc i{
+    color: #54dbcb;
+}
+
+a{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.mark{
+    position: absolute;
+    height: 150px;
+    width: 20px;
+   
+    z-index: 1;
+}
+
+.m1{
+    background-color: #d16144;
+}
+.m2{
+    background-color: #527c8d;
+}
+
+.m3{
+    background-color: #d3b058;
+}
+
+.m4{
+    background-color: #54dbcb
 }

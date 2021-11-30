@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DebitForGetDto } from 'src/app/models/dto/debitForGetDto';
-import { DebitService } from 'src/app/services/debit.service';
 import { ActivatedRoute } from '@angular/router';
+import { DebitService } from 'src/app/services/debit.service';
 
 @Component({
   selector: 'app-debit',
@@ -11,15 +11,16 @@ import { ActivatedRoute } from '@angular/router';
 export class DebitComponent implements OnInit {
   debits: DebitForGetDto[] = [];
   dataLoaded = false;
-  constructor(private debitService:DebitService , private activatedRoute:ActivatedRoute, ) { }
+  constructor( private activatedRoute:ActivatedRoute, private debitService:DebitService) { }
 
   ngOnInit(): void {
-    this.activatedRoute.params.subscribe(this.getDebits)
+    this.getDebits();
   }
+
   getDebits() {
     this.debitService.getDebits().subscribe(response=>{
-      this.debits = response.data
+      this.debits = response.data;
       this.dataLoaded = true;
-    })   
+    })
   }
 }
