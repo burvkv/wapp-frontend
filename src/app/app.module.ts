@@ -20,8 +20,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './Components/login/login.component';
 import { HardwareComponent } from './Components/hardware/hardware.component';
 import { TodoComponent } from './Components/todo/todo.component';
-
-
+import {BreadcrumbModule} from 'primeng/breadcrumb';
+import {MenuItem} from 'primeng/api';
+import {DropdownModule} from 'primeng/dropdown';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { TodoComponent } from './Components/todo/todo.component';
     LoginComponent,
     HardwareComponent,
     TodoComponent,
+    
 
   ],
   imports: [
@@ -43,9 +45,11 @@ import { TodoComponent } from './Components/todo/todo.component';
     NgxChartsModule,
     ButtonModule,
     RippleModule,
+    BreadcrumbModule,
     TableModule,
     HttpClientModule,
     MenubarModule,
+    DropdownModule,
     NgxEchartsModule.forRoot({
       echarts:()=> import ('echarts'),
     }),

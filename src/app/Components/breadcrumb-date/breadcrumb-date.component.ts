@@ -7,10 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BreadcrumbDateComponent implements OnInit {
   
-   cumbs:string[] =["asfsaf","fadsf","gdagad"];
+   @Input() cumbs:string[] =["asfsaf","fadsf","gdagad"];
   
-  activeClass:string="breadcrumb-item active";
-  passiveClass:string="breadcrumb-item";
+
   constructor() { }
 
   ngOnInit(): void {

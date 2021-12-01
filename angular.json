@@ -36,7 +36,8 @@
               
             ],
             "scripts": [
-              "./src/app/components/error-page/error-page-component.js",
+              "src/assets/js/svg-turkiye-haritasi.js",
+              "src/app/components/error-page/error-page-component.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
               "./node_modules/jquery/dist/jquery.min.js",
@@ -51,7 +52,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "2mb",
-                  "maximumError": "2mb"
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",

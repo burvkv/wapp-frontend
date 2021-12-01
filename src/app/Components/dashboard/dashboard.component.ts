@@ -7,12 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  surveyData = [
-    { name: 'Bikes', value: 105000 },
-    { name: 'Cars', value: 55000 },
-    { name: 'Trucks', value: 15000 },
-    { name: 'Scooter', value: 150000 },
-    { name: 'Bus', value: 20000 }
+  filterBy = [
+    {name:'Employees'},
+    {name:'Hardwares'},
+    {name:'Debits'},
+    
   ];
   constructor() { }
 
